@@ -1,3 +1,5 @@
+/*la clase llamada principal especifica que la pagina tendra un borde de 1 pixel con texto centrado com
+color blanco de su contenedor de 10k lineas de sangria*/
 .principal {
     border: 1px solid;
     text-align: center;
@@ -5,6 +7,7 @@
     line-height: 10.000;
 }
 
+/*la ID colorfondos especifica que tendra 1 borde de 1 pixel con texto centrado de color zian con 4k de sangria*/
 #colorfondodos {
     border: 1px solid;
     text-align: center;
