@@ -1,0 +1,71 @@
+/*Dando estilo al titulo principal de la pagina web*/
+/*Tipo de letra y el color*/
+#titulouno {
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+/*el id contenedortitulo ayuda qie el borde el cual fue seleccionado en html sea de 1 pxel solido de colo negro
+que ocupara el 100% de espacio*/
+#contenedortitulo {
+    width: 100%;
+    border: 1px solid;
+    background-color: black;
+}
+/*creacion de borde de 1 pixel a la seccion de menu de pa pagina con estilo de letra
+, fondo de color negro*/
+.menus {
+    width: 100%;
+    border: 1px solid;
+    background-color: rgba(0, 60, 255, 0.936);
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    width: 100%;
+    float: left;
+}
+/*toda la lista desordenada de la clase menu se le quitara los orbes de listas y tendra
+letra de color blanco, sera representada el menu de forma recta con 3rem de espacio cada uno y quita el resaltado*/
+li, a {
+    list-style: none;
+    color: #ffffff;
+    float: left;
+    text-indent: 3em;
+    text-decoration: none;
+}
+/*Todo el texto de html sera de color negro con diferente tipo de letra*/
+html{
+    font-family: "Bakbak One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000; 
+    font-size: 16px;
+}
+/*Desarrollo de borde a la pagina principal*/
+/*Dando sangria a la pagina*/
+.presentacion {
+    width: 100%;
+    border: 1px solid;
+    background-color: #e9c110;
+    line-height: 14.000;
+}
+/*La clase parrafo ayuda que se cambie el tipo de letra en una zona especifica de HTML*/
+/*con el color que se desea y la centralisacion del texto*/
+.parrafo1 {
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+
+}
+/*la clase llamada letra2 especifica tambien una zona el cambio de letra con el color y el texto central*/
+.letra2 {
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-align: center;
+}

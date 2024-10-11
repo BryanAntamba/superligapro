@@ -1,0 +1,14 @@
+/*la clase llamada contenedortitulo ayuda que ocupe el 100% de espacio con borde de 1 pixel solido de color negro*/
+.contenedortitulodos {
+    width: 100%;
+    border: 1px solid;
+    background-color: black;
+}
+/*clase llamada colorfondo especifica que una zona de la pagina tenga un borde de 1 pixel solido con texto
+centralisado co nel fondo de color zian y sangria de 4k*/
+.colorfondo {
+    border: 1px solid;
+    text-align: center;
+    background-color: #02b7ff;
+    line-height: 4.000;
+}

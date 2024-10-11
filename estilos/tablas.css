@@ -1,0 +1,12 @@
+/*esta pseudo clase indica que todos las listas sean de 140 pixeles de ancho con 20 pixeles de letra grande
+con un contenedor de borde de 1 pixel solido de color negro y texto centralisado, su contenedor sera de
+color zian*/
+thead,th,tr,td {
+    width: 140px;
+    font-size: 20px;
+    border: 1px solid;
+    color:black;
+    justify-content: center;
+    background-color: rgb(31, 113, 255);
+    text-align: left;
+}
